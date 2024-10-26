@@ -3,7 +3,7 @@
 ## Info
 - You need to have min 4 RAM in your system (VPS)
 - Recommended : 6 GB RAM
-- You can buy VPS from [PQ Hosting](https://pq.hosting/?from=622403&lang=en) using cryptocurrency
+- You can buy VPS from PQ Hosting using cryptocurrency
 ---
 This script is compatible with Ubuntu on local system as well as on VPS
 - If you run on VPS, u don't need to do anything after running the installation commands
@@ -15,11 +15,11 @@ sudo systemctl start nexus.service
 ## Installation
 - You can use either this command
 ```bash
-curl -sSL https://raw.githubusercontent.com/zunxbt/nexus-prover/main/nexus.sh | bash
+curl -sSL https://raw.githubusercontent.com/pvsairam/nexus-prover-vps/main/nexus.sh | bash
 ```
 - Or this command to run this script
 ```bash
-wget -qO - https://raw.githubusercontent.com/zunxbt/nexus-prover/main/nexus.sh | bash
+wget -qO - https://raw.githubusercontent.com/pvsairam/nexus-prover-vps/main/nexus.sh | bash
 ```
 
 ## Status
@@ -34,3 +34,5 @@ journalctl -u nexus.service -f -n 50
 - You will see something like this, it means, it is fine
 
 ![Screenshot 2024-10-09 115039](https://github.com/user-attachments/assets/3d3065d8-cb88-44ca-88b8-ac072bcf9eff)
+
+### Thank you zunxbt for the guide
